@@ -1,5 +1,6 @@
 #!/bin/bash
- 
+ #Appel d'une fonction
+ #Une fonction peut être appelée aussi bien à partir du programme principal qu'à partir d'une autre fonction.
        fctn01 () {
                echo "Fonction fctn01"
        }

@@ -1,6 +1,5 @@
 #!/bin/bash
- 
-       fctn01 () {
+fctn01 () {
                echo "Fonction fctn01"
        }
  

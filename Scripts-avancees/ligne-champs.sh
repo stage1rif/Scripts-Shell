@@ -1,7 +1,7 @@
 
        #!/bin/bash
 	   #Découper une ligne en champs
-	   #Le script suivant génère, à partir du fichier /etc/passwd, un affichage à l'écran du username suivi de son uid.
+	   #Le script suivant génère, à partir du fichier etc/passwd, un affichage à l'écran du username suivi de son uid.
        if (( $# != 1 ))
        then
                echo "Mauvais nombre d'arguments"

@@ -1,8 +1,7 @@
-
        #!/bin/bash
        # Ouverture du fichier /etc/passwd en lecture sous le descripteur 3
        # et du fichier /tmp/resultat.log en écriture sous le descripteur 4
-       exec 3</etc/passwd 4>tmp/resultat.log
+       exec 3</etc/passwd 4>/tmp/resultat.log
        cpt=1
        # Lecture ligne par ligne du fichier /etc/passwd
        # correspondant au descripteur 3

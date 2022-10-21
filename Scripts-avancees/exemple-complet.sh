@@ -1,5 +1,5 @@
 #!/bin/bash
- #Exemple d'un script reprenant toutes les commandes et fonctions vues précédement
+#Exemple d'un script reprenant toutes les commandes et fonctions vues précédement
        # Pour faire une pause
        function pause {
                echo "Appuyer sur Entrée pour continuer"
